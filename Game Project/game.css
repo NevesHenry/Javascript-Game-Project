@@ -1,0 +1,66 @@
+#start{
+    border: solid 2px red;
+    width: 100px;
+    color: red;
+    margin-left: 250px;
+}
+
+#gameOver{
+    border: solid 2px red;
+    width: 100px;
+    color: red;
+    margin-left: 250px;
+    visibility: hidden;
+}
+
+body{
+    background-image: url(game_images/background1.jpg)
+}
+
+h1{
+    margin-top: 50%;
+    color: red;
+    border-bottom: solid 2px red;
+}
+
+#finalScore{
+    color: red;
+    visibility: hidden;
+}
+
+#loadPage{
+    height: 800px;
+    text-align: center;
+    margin-top: 50px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 10px black;
+    background-image: url(game_images/background1.jpg)
+}
+
+#surface{
+    margin-left: auto;
+    margin-right: auto;
+    float: right;
+}
+
+
+#gameOver:hover{
+    background-color: white;
+}
+
+#start:hover{
+    background-color: white;
+}
+
+.score {
+    position: absolute;
+    width: 100px;
+    top: 5px;
+    left: 480px;
+    color: #FF7F00;
+    font-family: Helvetica, sans-serif;
+    cursor: default;
+    user-select: none;
+}

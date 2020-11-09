@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Bullethell Game Project</title>
+		<meta charset="UTF-8">
+		<script src="gameJsFile.js"></script>
+		<link rel="stylesheet" href="game.css">
+	</head>
+	<body onload="setup()" >		
+			<div class="score" >SCORE: <span id="score"></span></div>
+			<canvas id="surface" width="900" height="900" style="border :solid" onclick="onClickEvent(event)"></canvas>
+	  		<div id="loadPage">
+		   		<h1 id="title">Bullethell Game Project</h1>
+				   <h2 id = "start" onclick="start()">Start</h2>
+				   <h2 id="finalScore"> </h2>
+				   <h2 id = "gameOver" onClick="window.location.reload()" >Retry</h2>
+			</div>
+			
+			<audio src="game_Sounds/Soundtrack_We_will_win.mp3" loop autoplay></audio>
+
+	</body>
+</html>

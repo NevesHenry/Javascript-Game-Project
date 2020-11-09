@@ -1,0 +1,26 @@
+Project Info Questions.  Answer within the text file and include it with your final project submission.
+
+Describe your game and what the player can do in the game clearly.
+It is a spaceship game, bullethell style, where you can shoot and move around to dodge bullets and try to kill all the enemies.
+
+
+
+What are all of the controls for the game?  What do I need to do to find/test every part of the game?
+WASD or D-pad to move player, mouse to aim and mouse left button to shoot. Survive the waves of enemies until the boss spawns, then beat the boss.
+
+
+
+What bugs or other problems are present?
+We haven't found any bugs in the game.
+
+
+
+Did you use any outside libraries?  If so, what are they, what are you using them for, and did you get permission from me?
+No outside libraries.
+
+
+
+Did you use any outside code?  This should include any code you did not write yourself.  
+You will not receive a penalty if you did so, but you will not get credit for the outside code.  
+If you have included outside code without reporting it honestly, it becomes a case of academic dishonesty.
+No outside code used.
